@@ -16,7 +16,9 @@ public class Notice_Reg_POST extends HttpServlet {
 		resp.setCharacterEncoding("UTF-8");
 		resp.setContentType("text/html; charset=UTF-8");
 
-		req.setCharacterEncoding("UTF-8");
+//		req.setCharacterEncoding("UTF-8");
+		
+//		characterEncodingFilter 에서 사용
 
 		PrintWriter out = resp.getWriter();
 
